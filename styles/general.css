@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    margin-bottom: 1500px;
+    font-family: Roboto;
+
+    background-color: #efefeb;
+}
+
+p {
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+.svg-library {
+    display: none;
+}
+
+svg {
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+    display: block;
+}
