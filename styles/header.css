@@ -4,25 +4,25 @@
     top: 0;
     left: 0;
     right: 0;
-    height: 50px;
+    height: 60px;
     display: flex;
     align-items: center;
     box-shadow: 0px 0px 1px rgba(145, 145, 145, 0.304);
 
 }
 
-/* left section  */
+/* left section ---------------------------------  */
 
 .left-section {
     display: flex;
     align-items: center;
-    position: relative;
+    /* i deleted the position: relative; as i made the search icon position: fixed; */
 }
 
 
 .left-section a .linkedin-icon {
-    width: 2.5em;
-    height: 2.5em;
+    width: 2.8em;
+    height: 2.8em;
     color: #015bc2;
 }
 
@@ -35,19 +35,90 @@
     font-weight: 300;
     border-radius: 30px;
     margin-left: 5px;
-    &:focus{
-        outline: 2px solid  #107cf7;
+
+    &:focus {
+        outline: 2px solid #107cf7;
         outline-offset: -1px;
         /* i guss it's pretty good even without this outline-offset */
     }
-    &:hover{
+
+    &:hover {
         background-color: rgba(211, 211, 211, 0.501);
     }
 }
 
 .search-icon {
     font-size: 1.3rem;
-    position: absolute;
-    left: 60px;
-    top: 13px;
+    position: fixed;
+    left: 64px;
+    top: 23px;
+}
+
+
+
+/* middle section  ------------------------------- */
+
+.middle-section {
+    display: flex;
+    white-space: nowrap;
+}
+
+.middle-section div {
+    padding: 11px 20px 12px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(91, 91, 91);
+
+    &:hover {
+        color: black;
+    }
+}
+
+.middle-section p {
+    font-size: 12px;
+}
+
+.middle-section a {
+    text-decoration: none;
+}
+
+.middle-section svg {
+    width: 1.4em;
+    height: 1.3em;
+    margin-bottom: 2px;
+}
+
+.Notifications-div {
+    padding: 11px 20px 12px 0px !important;
+    /* Notifications has differnet padding-left */
+}
+
+.user-image-div {
+    padding-left: 10px !important;
+}
+
+.user-image-div img {
+    width: 1.4em;
+    height: 1.3em;
+    /* iteresting */
+    border-radius: 30px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.user-image-div div {
+    padding: 0px;
+    flex-direction: row;
+    align-items: end;
+    margin-top: -2px;
+}
+
+.user-image-div p {
+    margin-right: 1px;
+}
+
+.user-image-div svg {
+    width: 1em;
+    height: 1em;
 }
