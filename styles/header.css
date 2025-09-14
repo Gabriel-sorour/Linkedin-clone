@@ -122,3 +122,32 @@
     width: 1em;
     height: 1em;
 }
+
+
+/* right section  ------------------------------- */
+
+.right-section{
+    margin-left: 5px;
+    border-left: 1px solid  rgba(145, 145, 145, 0.304);
+}
+
+.right-section div{
+    padding-inline: 15px 0;
+}
+
+.arrow-div {
+    padding: 0px !important;
+    flex-direction: row !important;
+    align-items: end;
+    margin-top: px;
+}
+
+.arrow-div p {
+    margin-right: 1px;
+}
+
+.arrow-div svg {
+    width: 1em;
+    height: 1em;
+    margin-top: -6px;
+}
