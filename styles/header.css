@@ -7,6 +7,7 @@
     height: 60px;
     display: flex;
     align-items: center;
+    justify-content: center;
     box-shadow: 0px 0px 1px rgba(145, 145, 145, 0.304);
 
 }
@@ -16,13 +17,16 @@
 .left-section {
     display: flex;
     align-items: center;
-    /* i deleted the position: relative; as i made the search icon position: fixed; */
+    position: relative;
+    /* i bring it back relative as it didn't work as i predict. */
+    flex: 1;
+    max-width: 300px;
 }
 
 
 .left-section a .linkedin-icon {
-    width: 2.8em;
-    height: 2.8em;
+    width: 2.7em;
+    height: 2.7em;
     color: #015bc2;
 }
 
@@ -35,6 +39,8 @@
     font-weight: 300;
     border-radius: 30px;
     margin-left: 5px;
+    flex: 1;
+    width: 0;
 
     &:focus {
         outline: 2px solid #107cf7;
@@ -49,9 +55,9 @@
 
 .search-icon {
     font-size: 1.3rem;
-    position: fixed;
+    position: absolute;
     left: 64px;
-    top: 23px;
+    top: 13px;
 }
 
 
@@ -126,12 +132,12 @@
 
 /* right section  ------------------------------- */
 
-.right-section{
+.right-section {
     margin-left: 5px;
-    border-left: 1px solid  rgba(145, 145, 145, 0.304);
+    border-left: 1px solid rgba(145, 145, 145, 0.304);
 }
 
-.right-section div{
+.right-section div {
     padding-inline: 15px 0;
 }
 
@@ -150,4 +156,96 @@
     width: 1em;
     height: 1em;
     margin-top: -6px;
+}
+
+
+
+/* maybe i will undo the relative edit*/
+/*   ------------------------------- */
+
+@media (max-width:1300px) {
+
+    .header {
+        height: 42px;
+        padding-bottom: 2px;
+    }
+
+    /* left section -------------  */
+    .left-section {
+        max-width: 220px;
+    }
+
+    .left-section a .linkedin-icon {
+        width: 2em;
+        height: 2em;
+    }
+
+    .search-input {
+        padding: 6px 30px;
+        font-size: .7em;
+        font-family: inherit;
+        font-weight: 300;
+        border-radius: 30px;
+        margin-left: 5px;
+    }
+
+    .search-icon {
+        font-size: 1rem;
+        left: 50px;
+        top: 10px;
+    }
+
+
+    /* middle section  ------------ */
+    .middle-section div {
+        padding: 11px 14px 6px 14px;
+    }
+
+    .middle-section p {
+        font-size: 11px;
+    }
+
+    .middle-section svg {
+        width: 1em;
+        height: 1em;
+        margin-bottom: 1px;
+    }
+
+    .Notifications-div {
+        padding: 11px 14px 6px 0px !important;
+    }
+
+    .user-image-div {
+        padding-left: 7px !important;
+    }
+
+    .user-image-div img {
+        width: 1em;
+        height: 1em;
+    }
+
+    .user-image-div div {
+        padding: 0px;
+        margin-top: 1px;
+    }
+
+    .user-image-div svg {
+        width: .7em;
+        height: .7em;
+        margin-top: -1px;
+    }
+
+
+    /* right section  ------------ */
+    .right-section div {
+        padding-inline: 10px 0;
+    }
+
+    .arrow-div svg {
+        width: .7em;
+        height: .7em;
+        margin-top: -1px;
+    }
+
+
 }
