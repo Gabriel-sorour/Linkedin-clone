@@ -5,6 +5,12 @@
     <title>Linkedin Clone</title>
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/left-column.css">
+    <link rel="stylesheet" href="styles/middle-column.css">
+    <link rel="stylesheet" href="styles/right-column.css">
+
+
+    <!--google font Roboto-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
@@ -68,8 +74,10 @@
         </symbol>
 
         <symbol id="gold-symbol" viewBox="0 0 24 24">
-            <path d="M20 20a3.36 3.36 0 001-2.39V6.38A3.38 3.38 0 0017.62 3H6.38A3.36 3.36 0 004 4z" fill="#f8c77e"></path>
-            <path d="M4 4a3.36 3.36 0 00-1 2.38v11.24A3.38 3.38 0 006.38 21h11.24A3.36 3.36 0 0020 20z" fill="#e7a33e"></path>
+            <path d="M20 20a3.36 3.36 0 001-2.39V6.38A3.38 3.38 0 0017.62 3H6.38A3.36 3.36 0 004 4z" fill="#f8c77e">
+            </path>
+            <path d="M4 4a3.36 3.36 0 00-1 2.38v11.24A3.38 3.38 0 006.38 21h11.24A3.36 3.36 0 0020 20z" fill="#e7a33e">
+            </path>
         </symbol>
     </svg>
 
@@ -184,7 +192,7 @@
                 </div>
             </a>
 
-             <a href="">
+            <a href="">
                 <div>
                     <svg>
                         <use href="#gold-symbol"></use>
@@ -199,7 +207,37 @@
 
 
 
-    <nav class="left-bar"></nav>
+    <nav class="left-column">
+        <div class="user-div">
+            <img src="images/deafult-cover.svg" class="cover-img">
+            <img src="images/deaful-profile.svg" class="user-img">
+            <div class="frame-div"></div>
+            <button>+</button>
+            <div class="user-info">
+                <p class="user-name">
+                    Snowman Worlds
+                </p>
+                <p class="user-company">
+                    Call center Agent at Concentrix
+                </p>
+                <p class="user-address">
+                    Cairo, Cairo
+                </p>
+                <div class="company-div">
+                    <img src="images/TillNowDev -logo.jpg">
+                    <p>
+                        TillNowDev
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="connections-div"></div>
+
+        <div class="gold-div"></div>
+
+        <div class="tools-div"></div>
+    </nav>
 
 
 
@@ -215,7 +253,7 @@
 
 
 
-    <nav class="right-bar"></nav>
+    <nav class="right-column"></nav>
 
 
 </body>
