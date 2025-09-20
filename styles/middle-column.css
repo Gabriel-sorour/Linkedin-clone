@@ -1,0 +1,93 @@
+main {
+    width: 540px;
+}
+
+.new-post {
+    background-color: white;
+    border-radius: 10px;
+    padding: 12px 16px 16px 16px;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+    display: grid;
+    grid-template-columns: 48px 1fr;
+    row-gap: 20px;
+    column-gap: 8px;
+}
+
+.new-post img {
+    width: 48px;
+    border-radius: 30px;
+    vertical-align: middle;
+}
+
+/* .new-post input {
+    padding: 14px;
+    border-radius: 40px;
+    border: 1px solid rgb(170, 170, 170);
+    background-color: transparent;
+    transition: background-color .15s ease;
+
+    &::placeholder {
+        font-size: 15px;
+        font-family: Roboto, Arial;
+        color: rgb(44, 44, 44);
+        font-weight: 500;
+    }
+
+    &:hover {
+        background-color: rgba(211, 211, 211, 0.501);
+    }
+} */
+
+.new-post button {
+    font-size: 15px;
+    font-family: Roboto, Arial;
+    color: rgb(85, 85, 85);
+    font-weight: 500;
+    padding: 14px;
+    border-radius: 40px;
+    border: 1px solid rgb(170, 170, 170);
+    background-color: transparent;
+    display: flex;
+    justify-content: start;
+    /* can bre reomoved? */
+    transition: background-color .15s ease;
+
+    &:hover {
+        background-color: rgba(211, 211, 211, 0.501);
+    }
+}
+
+.options-div {
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.options-div div {
+    display: flex;
+    align-items: center;
+}
+
+.options-div div svg {
+    margin-right: 10px;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.options-div p {
+    color: rgb(85, 85, 85);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#video-symbol {
+    fill: rgb(77, 163, 77);
+}
+
+#photo-symbol {
+    fill: rgb(0, 140, 255);
+}
+
+#article-symbol {
+    fill: rgb(221, 81, 0);
+}

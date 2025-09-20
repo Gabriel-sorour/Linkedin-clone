@@ -1,10 +1,10 @@
 body {
     margin: 0;
-    margin-bottom: 1500px;
+    padding-bottom: 1500px;
     font-family: Roboto;
     margin-top: 85px;
     display: flex;
-    justify-content: center;
+    padding-left: 648px;
     background-color: #efefeb;
 }
 
@@ -27,20 +27,20 @@ svg {
     display: block;
 }
 
-/* ******* temp ******* */
+/* ******* not what i want ******* */
 
-
+/* 
 .grid-div {
-    background-color: rgba(255, 0, 0, 0.61);
+    background-color: rgba(255, 161, 161, 0.568);
     display: grid;
     grid-template-columns: 225px 555px 300px;
     column-gap: 25px
 }
 
 main {
-    background-color: rgb(202, 240, 202);
+    background-color: rgb(230, 255, 230);
 }
 
 .right-column {
-    background-color: rgb(236, 206, 211);
-}
+    background-color: rgb(248, 226, 229);
+} */

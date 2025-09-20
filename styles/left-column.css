@@ -1,7 +1,9 @@
 .left-column {
     /* background-color: rgb(255, 0, 0); */
     width: 225px;
-    /* position: fixed; */
+    position: fixed;
+    left: 400px;
+    top: 85px;
 }
 
 /* user-div ------------------------- */

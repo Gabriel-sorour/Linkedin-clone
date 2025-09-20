@@ -1,0 +1,7 @@
+.right-column {
+    background-color: rgb(248, 226, 229);
+    width: 300px;
+    position: fixed;
+    left: 1212px;
+    top:85px;
+}
