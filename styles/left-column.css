@@ -2,7 +2,7 @@
     /* background-color: rgb(255, 0, 0); */
     width: 225px;
     position: fixed;
-    left: 400px;
+    left: calc(50% - (590px/2) - 225px); /*that's amazing*/
     top: 85px;
 }
 

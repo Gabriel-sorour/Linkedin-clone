@@ -4,7 +4,8 @@ body {
     font-family: Roboto;
     margin-top: 85px;
     display: flex;
-    padding-left: 648px;
+    /* padding-left: 648px; */
+    justify-content: center;
     background-color: #efefeb;
 }
 

@@ -2,14 +2,17 @@ main {
     width: 540px;
 }
 
+/* new-post ------------------------- */
+
 .new-post {
     background-color: white;
     border-radius: 10px;
-    padding: 12px 16px 16px 16px;
+    padding: 12px 16px 3px 16px;
     box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
     display: grid;
     grid-template-columns: 48px 1fr;
-    row-gap: 20px;
+    row-gap: 3px;
+    grid-template-rows: 48px 48px;
     column-gap: 8px;
 }
 
@@ -44,6 +47,7 @@ main {
     color: rgb(85, 85, 85);
     font-weight: 500;
     padding: 14px;
+    padding-left: 18px;
     border-radius: 40px;
     border: 1px solid rgb(170, 170, 170);
     background-color: transparent;
@@ -53,7 +57,7 @@ main {
     transition: background-color .15s ease;
 
     &:hover {
-        background-color: rgba(211, 211, 211, 0.501);
+        background-color: rgba(211, 211, 211, 0.308);
     }
 }
 
@@ -66,6 +70,14 @@ main {
 .options-div div {
     display: flex;
     align-items: center;
+    padding-inline: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color .15s ease;
+
+    &:hover {
+        background-color: rgba(211, 211, 211, 0.308);
+    }
 }
 
 .options-div div svg {
@@ -90,4 +102,30 @@ main {
 
 #article-symbol {
     fill: rgb(221, 81, 0);
+}
+
+/* sort-by ------------------------- */
+
+.sort-by-div{
+    display: flex;
+    align-items: center;
+    margin-block: 8px;
+    cursor: pointer;
+}
+.sort-by-div div{
+    border-bottom: 1px solid rgb(185, 185, 185);
+    flex: 1;
+    margin-right: 10px;
+}
+
+.sort-by-div p{
+    font-size: 12px;
+    font-weight: 200;
+    margin-right: 5px;
+}
+.sort-by-div span{
+    font-weight: 500;
+}
+.sort-by-div svg{
+    margin-top: -8px;
 }
