@@ -123,6 +123,15 @@
             <path d="M21 3v2H3V3zm-6 6h6V7h-6zm0 4h6v-2h-6zm0 4h6v-2h-6zM3 21h18v-2H3zM13 7H3v10h10z"></path>
         </symbol>
 
+        <symbol id="private-symbol">
+            <path
+                d="M1 1.71l2.48 2.48A8.59 8.59 0 000 8a8.54 8.54 0 008 5 9.08 9.08 0 003.58-.72L14.29 15l.71-.71L1.71 1zm4.57 4.57l.72.72A2 2 0 006 8a2 2 0 002 2 2 2 0 001-.29l.71.72A2.93 2.93 0 018 11a3 3 0 01-3-3 2.93 2.93 0 01.57-1.72zM16 8a8.68 8.68 0 01-2.63 3.25l-2.48-2.48A3.25 3.25 0 0011 8a3 3 0 00-3-3 3.25 3.25 0 00-.77.11L5.46 3.34A9.56 9.56 0 018 3a8.55 8.55 0 018 5zm-6-.14L8.13 6A2 2 0 0110 7.86z">
+            </path>
+        </symbol>
+
+        <symbol id="chevron-symbol">
+            <path d="M5 15l4.61-7L5 1h2.39L12 8l-4.61 7z"></path>
+        </symbol>
     </svg>
 
 
@@ -410,7 +419,41 @@
 
 
 
-        <nav class="right-column">right-column</nav>
+        <nav class="right-column">
+            <div class="puzzle-div">
+                <p class="today-p">
+                    Today's puzzle
+                </p>
+                <a href="">
+                    <div class="details-div">
+                    <img src="images/puzzle.gif">
+                    <div class="info-div">
+                        <p class="zip-p">
+                            Zip - a quick brain teaser
+                        </p>
+                        <p class="solve-p">
+                            Solve in 60s or less!
+                        </p>
+                        <div class="score-div">
+                            <svg>
+                                <use href="#private-symbol"></use>
+                            </svg>
+                            <p class="solve-p">
+                                Score is private to you
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <svg>
+                            <use href="#chevron-symbol"></use>
+                        </svg>
+                    </div>
+                </div>
+                </a>
+            </div>
+
+
+        </nav>
 
 
     </div>

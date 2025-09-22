@@ -16,19 +16,20 @@
 /* left section ---------------------------------  */
 
 .left-section {
+    margin-left: 54px;
     display: flex;
     align-items: center;
     position: relative;
     /* i bring it back relative as it didn't work as i predict. */
     flex: 1;
     max-width: 325px;
-    margin-right: 100px;
+    margin-right: 90px;
 }
 
 
 .left-section a .linkedin-icon {
-    width: 2.7em;
-    height: 2.7em;
+    width: 2.55em;
+    height: 2.55em;
     color: #015bc2;
 }
 
@@ -99,7 +100,7 @@
 }
 
 .Notifications-div {
-    padding: 11px 15px 12px 0px !important;
+    padding: 11px 16px 12px 0px !important;
     /* Notifications has differnet padding-left */
 }
 
@@ -141,7 +142,7 @@
 }
 
 .right-section div {
-    padding-inline: 15px 0;
+    padding-inline: 12px 0;
 }
 
 .arrow-div {
