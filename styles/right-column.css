@@ -5,7 +5,8 @@
     top: 85px;
 }
 
-/* puzzel */
+/******************************************************** Puzzel version 1 */
+/* 
 .puzzle-div {
     background-color: white;
     border-radius: 10px;
@@ -62,4 +63,92 @@
 
 .puzzle-div svg {
     color: rgb(91, 91, 91);
+} */
+
+
+/******************************************************** Puzzel version 2 */
+
+
+
+.puzzle-div {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+    padding-block: 16px 12px;
+}
+
+.puzzle-div a {
+    text-decoration: none;
+}
+
+.today-p {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    margin-left: 13px;
+}
+
+.details-div {
+    display: grid;
+    grid-template-columns: 32px 1fr 20px;
+    padding: 6px 20px;
+    align-items: center;
+
+    &:hover {
+        background-color: rgb(240, 240, 240);
+    }
+}
+
+.right-column .details-div img {
+    width: 32px;
+    height: 32px;
+}
+
+.info-div {
+    margin-left: 10px;
+}
+
+.zip-p {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 4px;
+    color: black;
+}
+
+.solve-p {
+    font-size: 12px;
+    color: rgb(100, 100, 100);
+    font-weight: 300;
+}
+
+.score-div {
+    display: flex;
+}
+
+.score-div svg {
+    margin-right: 5px;
+}
+
+.puzzle-div svg {
+    color: rgb(56, 56, 56);
+}
+
+.show-more-div {
+    display: inline-flex;
+    margin-top: 2px;
+    margin-left: 15px;
+    padding: 5px;
+    border-radius: 4px;
+    transition: all .15s ease;
+
+    &:hover {
+        background-color: rgb(240, 240, 240);
+    }
+}
+
+.show-more-div p {
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 4px;
+    color: rgb(56, 56, 56);
 }
