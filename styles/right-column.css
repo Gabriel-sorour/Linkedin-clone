@@ -1,8 +1,10 @@
 .right-column {
     width: 295px;
-    position: fixed;
-    right: calc(50% - (590px/2) - 295px);
-    top: 85px;
+    /* position: fixed; */
+    /* right: calc(50% - (590px/2) - 295px); */
+    /* background-color: red; */
+    position: relative;
+    flex-shrink: 0;
 }
 
 /******************************************************** Puzzel version 1 */
@@ -152,3 +154,10 @@
     margin-right: 4px;
     color: rgb(56, 56, 56);
 }
+
+/* 
+
+try dispaly : stick.
+premium in the header --> implement v2
+
+*/

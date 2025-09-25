@@ -1,5 +1,6 @@
 main {
     width: 540px;
+    flex-shrink: 0;
 }
 
 /* new-post ------------------------- */
@@ -106,26 +107,29 @@ main {
 
 /* sort-by ------------------------- */
 
-.sort-by-div{
+.sort-by-div {
     display: flex;
     align-items: center;
     margin-block: 8px;
     cursor: pointer;
 }
-.sort-by-div div{
+
+.sort-by-div div {
     border-bottom: 1px solid rgb(185, 185, 185);
     flex: 1;
     margin-right: 10px;
 }
 
-.sort-by-div p{
+.sort-by-div p {
     font-size: 12px;
     font-weight: 200;
     margin-right: 5px;
 }
-.sort-by-div span{
+
+.sort-by-div span {
     font-weight: 500;
 }
-.sort-by-div svg{
+
+.sort-by-div svg {
     margin-top: -8px;
 }

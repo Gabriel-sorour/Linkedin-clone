@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LinkedIn Layout Demo</title>
+  <style>
+    body {
+      height: 4000px;
+    }
+
+    main {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .left {
+      width: 225px;
+      height: 200px;
+      background-color: lightblue;
+      position: sticky;
+      top: 80px;
+    }
+
+    .posts {
+      width: 555px;
+      height: 2000px;
+      background-color: lightgray;
+    }
+
+    .right {
+      width: 295px;
+      background-color: lightpink;
+      position: relative; /* important */
+    }
+
+    .up {
+      height: 400px;
+      background-color: green;
+      margin-bottom: 30px;
+    }
+
+    .down {
+      height: 400px;
+      background-color: orange;
+      position: sticky;
+      top: 80px; /* sticks below header */
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div class="left">left</div>
+    <div class="posts">posts</div>
+    <div class="right">
+      <div class="up">up</div>
+      <div class="down">down</div>
+    </div>
+  </main>
+</body>
+
+</html>

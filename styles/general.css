@@ -3,9 +3,9 @@ body {
     padding-bottom: 1500px;
     font-family: Roboto;
     margin-top: 85px;
-    display: flex;
+    /* display: flex; */
     /* padding-left: 648px; */
-    justify-content: center;
+    /* justify-content: center; */
     background-color: #efefeb;
 }
 
@@ -45,3 +45,14 @@ main {
 .right-column {
     background-color: rgb(248, 226, 229);
 } */
+
+/* ************************************** */
+
+
+.grid-div {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    background-color: rgba(212, 230, 212, 0.534);
+    height: 3000px;
+}

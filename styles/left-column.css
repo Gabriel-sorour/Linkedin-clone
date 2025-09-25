@@ -1,9 +1,12 @@
 .left-column {
     /* background-color: rgb(255, 0, 0); */
     width: 225px;
-    position: fixed;
-    left: calc(50% - (590px/2) - 225px); /*that's amazing*/
+    /* position: fixed; */
+    /* left: calc(50% - (590px/2) - 225px); that's amazing */
+    position: sticky;
     top: 85px;
+    height: fit-content;
+    flex-shrink: 0;
 }
 
 /* user-div ------------------------- */
