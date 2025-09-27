@@ -136,6 +136,16 @@
         <symbol id="chevron-down-symbol">
             <path d="M1 5l7 4.61L15 5v2.39L8 12 1 7.39z"></path>
         </symbol>
+
+        <symbol id="feed-symbol">
+            <path
+                d="M12 2H4a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2V4a2 2 0 00-2-2zm-3 8v2H7.5A1.5 1.5 0 016 10.5a1.56 1.56 0 01.1-.5l1.08-3h2.13l-1.09 3zm0-3.75A1.25 1.25 0 1110.25 5 1.25 1.25 0 019 6.25z">
+            </path>
+        </symbol>
+
+        <symbol id="arrow-right-symbol">
+            <path d="M11.45 3L15 8l-3.55 5H9l2.84-4H2V7h9.84L9 3z"></path>
+        </symbol>
     </svg>
 
 
@@ -422,7 +432,6 @@
 
 
 
-
         <nav class="right-column">
             <div class="puzzle-div">
                 <!--************************ Puzzle version 1 ************************-->
@@ -554,12 +563,95 @@
 
             </div>
 
+            <div class="add-feed">
+                <div class="feed-title">
+                    <p>
+                        Add to your feed
+                    </p>
+                    <a href="">
+                        <svg>
+                            <use href="#feed-symbol"></use>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="feed-cards">
+
+                    <div class="feed-details">
+                        <a href="">
+                            <img src="images/TillNowDev -logo.jpg">
+                        </a>
+                        <div class="info">
+                            <a href="">
+                                <div>
+                                    <p class="name-p">TillNowDev</p>
+                                    <p class="about-p">Company &#8226 Software</p>
+                                </div>
+                            </a>
+                            <button>
+                                + Follow
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="feed-details">
+                        <a href="">
+                            <img src="images/gs.jpg">
+                        </a>
+                        <div class="info">
+                            <a href="">
+                                <div>
+                                    <p class="name-p">Gabrile sorour</p>
+                                    <p class="about-p">CS &#124 JavaScript &#124 Future MERN Developer</p>
+                                </div>
+                            </a>
+                            <button>
+                                + Follow
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="feed-details">
+                        <a href="">
+                            <img src="images/deaful-profile.svg">
+                        </a>
+                        <div class="info">
+                            <a href="">
+                                <div>
+                                    <p class="name-p">Page Name</p>
+                                    <p class="about-p">Page inof</p>
+                                </div>
+                            </a>
+                            <button>
+                                + Follow
+                            </button>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <a href="">
+                    <div class="view-all-div">
+                        <p>
+                            View all recommendations
+                        </p>
+                        <svg>
+                            <use href="#arrow-right-symbol"></use>
+                        </svg>
+                    </div>
+                </a>
+            </div>
+
 
             <div style="height: 500px; background-color: lightblue; margin-top: 20px; position: sticky; top:85px">
                 sticky
             </div>
 
         </nav>
+
+
+
 
 
     </div>
