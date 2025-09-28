@@ -1,6 +1,6 @@
 ****** This file to track the chnges i implement ******
 
-    - set up add-feed in the right-column (HTML & CSS)
+    - set up adds-div in the right-column (HTML & CSS)
 
 
 ******* to try ********

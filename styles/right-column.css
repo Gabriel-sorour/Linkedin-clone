@@ -265,3 +265,94 @@
     font-weight: 500;
     margin-right: 4px;
 }
+
+/************************************************** promoted-div*/
+
+.adds-div {
+    margin-top: 9px;
+    position: sticky;
+    top: 85px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.adds-div .cover-pic {
+    width: 100%;
+    height: 50px;
+    object-fit: cover;
+    object-position: bottom;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.page-pic-div {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 35px;
+    left: calc(50% - 27px);
+    /*27=25+2 brder-width*/
+}
+
+.page-pic-div img {
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+}
+
+.promoted-div {
+    display: flex;
+    color: rgb(100, 100, 100);
+    background-color: white;
+    border-radius: 7px;
+    position: absolute;
+    top: 8px;
+    right: 6px;
+    padding: 4px;
+}
+
+.promoted-div p {
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 3px;
+}
+
+.promoted-details {
+    padding: 60px 18px 18px 18px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.promoted-details .title-p {
+    font-weight: 500;
+    width: 200px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.promoted-details .sub-p {
+    font-weight: 300;
+    color: rgb(100, 100, 100);
+    margin-bottom: 18px;
+}
+
+.promoted-details button {
+    width: 100%;
+    color: #0a66c2;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    padding-block: 8px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid #0a66c2;
+    transition: all .15 ease;
+
+    &:hover {
+        background-color: #87c1fc1c;
+    }
+}
