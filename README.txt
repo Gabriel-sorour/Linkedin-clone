@@ -1,6 +1,7 @@
 ****** This file to track the chnges i implement ******
 
-    - set up adds-div in the right-column (HTML & CSS)
+    - Completed the footer section inside the right-column.
+    - With this, the right-column layout and styling are now finished.
 
 
 ******* to try ********

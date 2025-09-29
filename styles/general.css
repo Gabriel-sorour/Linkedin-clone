@@ -53,6 +53,6 @@ main {
     display: flex;
     gap: 24px;
     justify-content: center;
-    background-color: rgba(212, 230, 212, 0.534);
+    /* background-color: rgba(212, 230, 212, 0.534); */
     height: 3000px;
 }
