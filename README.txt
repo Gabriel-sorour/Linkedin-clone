@@ -1,8 +1,8 @@
 ****** This file to track the chnges i implement ******
 
-    - Completed the footer section inside the right-column.
-    - With this, the right-column layout and styling are now finished.
-
+-setup the top-div in the contnet section (HTML&CSS)
 
 ******* to try ********
     - premium subscribtion version 2 in the header.
+    - viewBox of SVGs in the hidden library.  
+    - linkedend svg libraty structure.

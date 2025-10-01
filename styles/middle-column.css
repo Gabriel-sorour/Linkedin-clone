@@ -133,3 +133,96 @@ main {
 .sort-by-div svg {
     margin-top: -8px;
 }
+
+/* content ------------------------- */
+
+.content {
+    background-color: lightpink;
+}
+
+.post-card {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.post-card a {
+    text-decoration: none;
+}
+
+.top-div {
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+    position: relative;
+}
+
+.top-div img {
+    width: 48px;
+    height: 48px;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.profile-name {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    color: black;
+
+    &:hover {
+        color: #0a66c2;
+        text-decoration: underline;
+    }
+}
+
+.followers-number {
+    font-size: 12px;
+    color: rgb(73, 73, 73);
+    font-weight: 300;
+}
+
+.post-time {
+    display: flex;
+    gap: 2px;
+    color: rgb(73, 73, 73);
+}
+
+.post-time p {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.post-time svg {
+    color: rgb(99, 99, 99);
+}
+
+.post-options {
+    position: absolute;
+    display: flex;
+    gap: 4px;
+    top: 4px;
+    right: 8px;
+}
+
+.post-options svg {
+    color: rgb(73, 73, 73);
+    width: 15px;
+    height: 15px;
+}
+
+
+.post-options button {
+    background-color: transparent;
+    padding: 9px 9px;
+    border-radius: 30px;
+    border: none;
+    transition: all .15s ease;
+
+    &:hover {
+        background-color: rgb(244, 244, 244);
+    }
+}
