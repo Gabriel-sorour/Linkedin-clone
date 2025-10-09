@@ -15,6 +15,8 @@ p {
 
 button {
     cursor: pointer;
+    font-family: inherit;
+    font-weight: inherit;
 }
 
 .svg-library {

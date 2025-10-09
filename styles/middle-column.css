@@ -136,23 +136,27 @@ main {
 
 /* content ------------------------- */
 
-.content {
+/* .content {
     background-color: lightpink;
-}
+} */
 
 .post-card {
     background-color: white;
     border-radius: 10px;
+    margin-bottom: 8px;
+    box-shadow: 0px 0px 1px rgb(156, 156, 156);
 }
 
 .post-card a {
     text-decoration: none;
 }
 
+/************** post-card --> top-div **************/
+
 .top-div {
     display: flex;
     gap: 10px;
-    padding: 15px;
+    padding: 15px 15px 8px 15px;
     position: relative;
 }
 
@@ -225,4 +229,101 @@ main {
     &:hover {
         background-color: rgb(244, 244, 244);
     }
+}
+
+/************** post-card --> middle-div **************/
+
+/* .middle-div{
+    background-color: rgb(192, 247, 192);
+} */
+
+.middle-div p {
+    margin-left: 15px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 350;
+}
+
+.middle-div img {
+    width: 100%;
+    max-height: 690px;
+    object-fit: cover;
+}
+
+/************** post-card --> bottom-div **************/
+
+.bottom-div {
+    padding: 4px 15px;
+}
+
+.engagements-div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    font-size: 13px;
+    font-weight: 300;
+    color: rgb(70, 70, 70);
+}
+
+.engagements-div button {
+    padding: 0;
+    font-size: inherit;
+    background-color: transparent;
+    border: none;
+    color: inherit;
+}
+
+.engagements-div a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+        color: #0a66c2;
+        text-decoration: underline;
+    }
+}
+
+.reactions-div {
+    display: flex;
+    gap: 10px;
+}
+
+.reactions-div img {
+    margin-right: -8px;
+}
+
+.bottom-div .line {
+    border-bottom: 1px solid rgb(231, 231, 231);
+    margin-bottom: 4px;
+}
+
+.engagement-options {
+    display: flex;
+    gap: 4px;
+}
+
+.engagement-options button {
+    color: rgb(66, 66, 66);
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding-block: 10px;
+    flex: 1;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    transition: all .15s ease;
+
+    &:hover {
+        background-color: rgb(245, 245, 245);
+    }
+}
+
+.engagement-options p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.engagement-options svg {
+    font-size: 1.2em;
 }
