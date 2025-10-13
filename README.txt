@@ -1,13 +1,16 @@
 ****** This file to track the chnges i implement ******
 
-V1.0.0: set up the rest of the post-card
+V1 LinkedIn clone (Home Page)
 
-- set up midd-div and bottom-div (HTML & CSS)
-- finalized structure and styling of the post-card
-- marks the first version of the LinkedIn Clone project
+First complete version of the LinkedIn clone’s home page.
+- Added 3 real accounts to the feed (with permission)
+- Refined post text and final visual touches
+- Marking this as V1 to prepare for sharing on LinkedIn
+- More features and pages to be added in future updates
 
 ******* to try ********
-    - premium subscribtion version 2 in the header.
-    - viewBox of SVGs in the hidden library.  
-    - linkedend svg libraty structure.
-    - add repost to the post-card
+- message div.
+- premium subscribtion version 2 in the header.
+- viewBox of SVGs in the hidden library.  
+- linkedend svg libraty structure.
+- add repost to the post-card

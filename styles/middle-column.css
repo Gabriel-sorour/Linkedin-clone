@@ -237,11 +237,14 @@ main {
     background-color: rgb(192, 247, 192);
 } */
 
-.middle-div p {
+.middle-div .post-text {
     margin-left: 15px;
+    margin-right: 15px;
     margin-bottom: 8px;
     font-size: 14px;
-    font-weight: 350;
+    font-weight: 340;
+    line-height: 20px;
+    color: rgb(27, 27, 27);
 }
 
 .middle-div img {
